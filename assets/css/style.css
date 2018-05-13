@@ -1,0 +1,38 @@
+body {
+    margin: auto;
+    background-image: url(../images/rockywall.png);
+    box-sizing: border-box;
+}
+
+.container {
+    padding: 20px;
+}
+
+h2 {
+    background-color: #ffffff;
+    border-bottom: 2px solid #dddddd;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 0px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
+}
+
+.navbar {
+    display: inline-block;
+    width: 100%;
+    background-color: #ffffff;
+    border: 2px solid green;
+}
+
+.navbar-nav {
+    background-color: red;
+    align-content: right;
+}
+
+.navbar-brand {
+    background-color: #4aaaa5;
+    padding: 20px 30px 20px 30px;
+    color: #ffffff;
+}
