@@ -1,4 +1,4 @@
-body {
+/*body {
     margin: auto;
     background-image: url(../images/rockywall.png);
     box-sizing: border-box;
@@ -19,29 +19,14 @@ body {
     color: #dddddd;
 }
 
-.container {
-    padding: 20px;
-    overflow: auto;
-    background-color:white;
-    border: 1px solid #dddddd;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 960px;
-}
-
-h2 {
-    /*background-color: #ffffff;*/
-    border-bottom: 2px solid #dddddd;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
-    font-weight: bolder;
-    font-size: 25px;
-    padding: 0px 0px 20px 0px;
-    margin: 0px 0px 20px 0px;
-}
-
 .navbar {
     margin-bottom: 20px;
     padding: 0px;
+}
+
+.navbar-toggler {
+    float: right;
+    margin: 10px 10px 0px 0px;
 }
 
 .nav-item {
@@ -67,18 +52,17 @@ h2 {
     margin: 0;
 }
 
-/*This is the for the Navigation Bar and Contact Form Inputs*/
 .h3 {
     color: #777777;
     background-color: white;
     float: right;
     width: auto;
-    /*padding: 20px 0px 20px 20px;*/
+    padding: 20px 0px 20px 20px;
     font-size: 18px;
 
 }
 
-/*
+
 .navbar {
     display: inline-block;
     width: 100%;
@@ -96,7 +80,7 @@ h2 {
     padding: 20px 30px 20px 30px;
     color: #ffffff;
 }
-*/
+
 
 #copyright {
     color: #eeeeee;
@@ -105,10 +89,10 @@ h2 {
 #bioImage {
     box-sizing: border-box;
     background-color: #ffffff;
-    height: 200px;
-    width: 200px;
+    width: 100%;
+    max-width: 200px;
     float: left;
-    margin: 5px 20px 5px 5px;
+    margin: 5px 5px 5px 5px;
     border: 1px solid #dddddd;
 }
 
@@ -135,17 +119,119 @@ footer {
 }
 
 @media screen and (max-width: 960px) {
-    .copyAbout {
-        padding-left: 75px;
-    }
-
-    #bioImage {
-        text-align: center;
+    .bioImage {
+        float: left;
     }
 }
 
 @media screen and (max-width: 720px) {
     .copyAbout {
         padding-left: 20px;
+    }
+}
+*/
+
+/*Google font sources:
+
+Font-Family: 'Roboto Condensed', Sans-Serif;
+Font-Size: 35px;
+
+Font-Family: 'Cabin', Sans-Serif;
+Font-Size: 16px;
+*/
+
+.navbar {
+    background-color: #ffffff !Important;
+    border-bottom: 1px solid #dddddd 
+
+}
+.navbar-brand {
+    Font-Family: 'Cabin', Sans-Serif;
+    font-size: 30px;
+    color: #777!Important;
+}
+
+#navbarNav {
+    Font-Family: 'Roboto Condensed', Sans-Serif;
+    Font-Size: 20px; 
+}
+
+h2 {
+    border-bottom: 2px solid #dddddd;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #777;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 0px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
+}
+
+.container {
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    overflow: auto;
+    background-color:white;
+    border: 1px solid #dddddd;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 100%;
+    max-width: 960px;
+}
+
+body {
+    background-image: url(../images/rockywall.png);
+}
+
+.copyAbout {
+    height: auto;
+    min-height: 100%;
+}
+
+#bioImage {
+    display: block;
+    max-width: 200px;
+}
+
+.footer {
+    border-top: 1px solid #dddddd;
+    height: 70px!Important;
+}
+
+#copyright {
+    Font-Family: 'Cabin', Sans-Serif;
+    Font-Size: 16px;
+    color: #777;
+}
+
+.banner {
+    box-sizing: border-box;
+    color: #eeeeee;
+    background-color: #4aaaa5;
+    padding: 15px;
+    margin: 130px 0px 0px 0px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.portfolioBox {
+    box-sizing: border-box;
+    background-image: url(http://via.placeholder.com/300x200);
+    width: 100%;
+    max-width: 300px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px 0px 0px 0px;
+}
+
+.portfolioBox:hover {
+    border: 1px solid #4aaaa5;
+}
+
+@media screen and (max-width: 990px) {
+    #bioImage {
+        max-width: 100%;
+        padding-bottom: 20px;
     }
 }
