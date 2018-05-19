@@ -142,7 +142,7 @@ Font-Size: 16px;
 
 .navbar {
     background-color: #ffffff !Important;
-    border-bottom: 1px solid #dddddd 
+    border: 1px solid #dddddd;
 
 }
 .navbar-brand {
@@ -189,7 +189,7 @@ body {
 
 #bioImage {
     display: block;
-    max-width: 200px;
+    width: 100%;
 }
 
 .footer {
