@@ -153,12 +153,12 @@ Font-Size: 16px;
 
 #navbarNav {
     Font-Family: 'Roboto Condensed', Sans-Serif;
-    Font-Size: 20px; 
+    Font-Size: 20px;
 }
 
 h2 {
     border-bottom: 2px solid #dddddd;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    Font-Family: 'Cabin', Sans-Serif;
     color: #777;
     font-weight: bolder;
     font-size: 25px;
@@ -173,7 +173,7 @@ h2 {
     overflow: auto;
     background-color:white;
     border: 1px solid #dddddd;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    Font-Family: 'Roboto Condensed', Sans-Serif;
     width: 100%;
     max-width: 960px;
 }
